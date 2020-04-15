@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="45dp" android:width="50dp"
+        tools:ignore="UnusedAttribute">
+        <shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android"
+            tools:ignore="RedundantNamespace">
+
+            <corners android:bottomLeftRadius="5dp" android:topLeftRadius="5dp"/>
+            <solid android:color="#F6F6F6"/>
+        </shape>
+    </item>
+    <item android:height="32dp" android:width="32dp" android:gravity="center" android:drawable="@drawable/ic_nine_one"
+        tools:ignore="UnusedAttribute" />
+</layer-list>

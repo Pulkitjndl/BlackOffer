@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPActivity"
+    android:background="#ffffff">
+
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/progressIndicator"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:loading_width="5dp"
+        android:visibility="gone"
+        app:loading_color="#EA2D6D"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        tools:ignore="UselessParent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:textSize="18sp"
+            android:text="@string/enter_otp_received"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            tools:ignore="UnusedAttribute" />
+        <TextView
+            android:id="@+id/ph_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/_00_00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:layout_marginTop="20dp"
+            android:text="@string/enter_the_otp_below_in_case_we_fail_to_detect_the_sms_automatically"/>
+
+        <com.goodiebag.pinview.Pinview
+            android:id="@+id/editTextCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:pinWidth="30dp"
+            app:pinHeight="40dp"
+            app:pinLength="6"
+            app:cursorVisible="false"
+            app:forceKeyboard="true"
+            app:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/btnVerify"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verify"/>
+
+        <TextView
+            android:id="@+id/resendText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="4dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/resend_otp"
+            android:textStyle="italic"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

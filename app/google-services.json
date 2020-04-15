@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "884356095995",
+    "firebase_url": "https://black-offer.firebaseio.com",
+    "project_id": "black-offer",
+    "storage_bucket": "black-offer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884356095995:android:78253706c43415d8f0755e",
+        "android_client_info": {
+          "package_name": "com.assignment.blackoffer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884356095995-td3scj1n422luos6a2pg8pi7nr9sqdik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.assignment.blackoffer",
+            "certificate_hash": "3a9a2fbd75e3d38677f21e02c8e820ce4dbf7421"
+          }
+        },
+        {
+          "client_id": "884356095995-65k025qblhchhpk5nig4mrc2devc0fcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAav_IvYKMG3PKNJvTGPY3DMJ6EJnLmNA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884356095995-65k025qblhchhpk5nig4mrc2devc0fcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
